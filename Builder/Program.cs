@@ -8,7 +8,7 @@ internal class Program
     [STAThread]
     private static void Main()
     {
-        // Settings
+        // Settingss
         var token = Cli.GetStringValue("Discord webhook url");
         // Test connection to Discord webhook url
         if (!Discord.WebhookIsValid(token))
