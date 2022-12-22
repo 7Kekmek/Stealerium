@@ -14,7 +14,7 @@ internal class Program
         if (!Discord.WebhookIsValid(token))
             Cli.ShowError("Check the fucking webhook url!");
         else
-            Discord.SendMessage("✅ *Elys Sklave* builder connected successfully!", token);
+            Discord.SendMessage("✅ *Elys Hund* builder connected successfully!", token);
         Cli.ShowSuccess("Connected successfully!\n");
 
         // Encrypt values
